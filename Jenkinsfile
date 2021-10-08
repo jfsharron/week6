@@ -11,7 +11,7 @@ pipeline {
           }
           stage("ID branch") {
                steps {
-                    sh "echo "playground branch""
+                    echo "playground branch"
                }
           }
           stage("Docker login") {
