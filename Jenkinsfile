@@ -9,6 +9,11 @@ pipeline {
                     sh "./gradlew compileJava"
                }
           }
+          stage("id branch") {
+               steps {
+                    echo "we are on the master branch"
+               }
+          }
           stage("Unit test") {
                steps {
                     sh "./gradlew test"
