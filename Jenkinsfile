@@ -11,7 +11,7 @@ pipeline {
           }
           stage("id branch") {
                steps {
-                    echo "we are on the master branch v6"
+                    echo "we are on the master branch v7"
                }
           }
           stage("Unit test") {
